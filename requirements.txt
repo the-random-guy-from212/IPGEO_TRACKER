@@ -1,0 +1,33 @@
+# IP Geolocation & 3D Route Tracer Dependencies
+# Core HTTP and networking
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Geospatial and mapping libraries
+plotly>=5.15.0
+folium>=0.14.0
+pydeck>=0.8.0
+
+# Data processing and scientific computing
+pandas>=2.0.0
+numpy>=1.24.0
+geopy>=2.3.0
+
+# Utilities
+pathlib2>=2.3.7; python_version<'3.4'
+
+Flask==2.3.3
+Flask-SocketIO==5.3.6
+Flask-Limiter==3.5.0
+Flask-Caching==2.1.0
+python-dotenv==1.0.0
+eventlet==0.33.3
+python-engineio==4.8.0
+python-socketio==5.10.0
+Werkzeug==2.3.7
+aiohttp==3.8.6
+ipaddress==1.0.23
+redis==5.0.1
+gunicorn==21.2.0
+gevent==23.7.0
+gevent-websocket==0.10.1
